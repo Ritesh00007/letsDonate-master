@@ -1,0 +1,22 @@
+.message{
+    display: block;
+  width: 500px;
+  height: 100px;
+  padding: 5px;
+  border: 1px solid blue;    
+  background-color: yellow; 
+}
+
+.welcome{
+    text-align: center;
+}
+ul{
+    height: 400px;
+    margin-left: 20%;
+}
+
+#message{
+    
+    margin-left: 43%;
+}
+

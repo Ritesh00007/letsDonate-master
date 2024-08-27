@@ -1,0 +1,55 @@
+{
+  "name": "milestone2",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@testing-library/jest-dom": "^5.11.5",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.0",
+    "bootstrap": "^4.5.3",
+    "immutability-helper": "^3.1.1",
+    "react": "^17.0.1",
+    "react-bootstrap": "^1.4.0",
+    "react-chat-window": "^1.2.1",
+    "react-copy-to-clipboard": "^5.0.2",
+    "react-dom": "^17.0.1",
+    "react-dropdown": "^1.9.0",
+    "react-horizontal-scroll-container": "^1.0.1",
+    "react-modal": "^3.11.2",
+    "react-native-elements": "^3.0.0-alpha.1",
+    "react-router-bootstrap": "^0.25.0",
+    "react-scripts": "4.0.0",
+    "react-scroll-to-bottom": "^4.0.0",
+    "reactstrap": "^8.7.1",
+    "scroll": "^3.0.1",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

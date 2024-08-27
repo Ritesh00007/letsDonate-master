@@ -1,0 +1,88 @@
+.pfBanner {
+    padding-left: 16vw;   
+    background-color: slategray;
+    margin-left: 0;
+    margin-right: 0;
+    left: 0;
+    right: 0;
+}
+
+.topLeft{
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.userImage > img{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;       /* this will change the height of banner */
+    margin-bottom: 30px;    /* this will change the height of banner */
+}
+
+.topSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: rgb(123, 132, 141);   /* color of the banner */
+}
+
+.scrollmenu{
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+
+.bottomSection > h2{
+    color: black;
+    margin-left: 70px;
+}
+
+.button{
+    width: 100px;
+    color: white;
+    background-color: #ff7779;
+    padding: 10px;
+    border: none;
+}
+
+.descriptionText{
+    height: 80px;
+}
+
+input{
+    padding: 5px;
+}
+
+.postButton{
+    color: white;
+    background-color: #ff7779;
+    padding: 10px;
+    border: none;
+    margin-left: 70px;
+}
+
+/* text style in the user dashboard banner */
+.userName{
+    margin-left: 20px;
+}
+.userName > h1{
+    margin-left: 0px;
+}
+.userName > h2{
+    font-size: 17px;
+}
+
+/* edit form content style & new post form style */
+#editUserForm{
+    text-align: right;
+    margin-left: auto;
+    margin-bottom: -10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+#newPostForm{
+    text-align: left;
+}

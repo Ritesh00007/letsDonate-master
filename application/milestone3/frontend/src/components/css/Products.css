@@ -1,0 +1,25 @@
+.Products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1%;
+}
+
+.filters {
+    margin-top: 2%;
+    text-align: left;
+    vertical-align: top;
+    left: 0;
+}
+
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: auto;
+}
+
+.grid {
+    padding-left: 3%;
+    padding-right: 3%;
+}

@@ -1,0 +1,66 @@
+.fundCard{
+    display: flex;
+    position: relative;
+    margin: 19px;
+    border-bottom: 1px solid lightgray;
+    cursor: pointer;
+    padding: 19px;
+}
+
+.fundCard:hover{
+    opacity: 0.7;
+}
+
+.fundCard > img{
+    width: 349px;
+    border-radius: 9px;
+    height: 199px;
+    overflow: hidden;
+}
+
+.rightData{
+    justify-content: space-between;
+    padding-left: 19px;
+    display: flex;
+    flex-direction: column;
+}
+
+.heart{
+    position: absolute;
+    right: 39px;
+    top: 19px;
+}
+
+.rightDataTop > p{
+    color: gray;
+    margin-top: 9px;
+    font-size: 14px;
+}
+
+.rightDataTop > h2{
+    margin-top: 9px;
+    font-weight: 299px;
+}
+
+.rightDataTop{
+    width: 499px;
+}
+
+.rightDataBottom{
+    justify-content: space-between;
+    display: flex;
+}
+
+.star{
+    color: gold;
+}
+
+.starRating{
+    align-items: center;
+    display: flex;
+}
+
+.amountRequired > h2{
+    text-align: left;
+}
+

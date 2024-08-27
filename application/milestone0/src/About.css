@@ -1,0 +1,20 @@
+.leftSide img{
+    min-height: 100%;
+    width: 40vw;
+    display: flex;
+    height: 80vh;
+    margin-left: 20px;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    height:100vh;
+    background: black;
+}
+
+.rightSide{
+    text-align: center;
+    margin: 30px;
+    color: wheat;
+}

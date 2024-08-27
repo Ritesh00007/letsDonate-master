@@ -1,0 +1,35 @@
+.donationHeading{
+    text-align: left;
+    margin-left: 39px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.filters {
+    margin-top: 2%;
+    float: left;
+    width: 13.5%;
+    text-align: left;
+    vertical-align: top;
+    left: 0;
+} 
+
+.button{
+    color: white;
+    background-color: #ff7779;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    display: inline-block;
+}
+
+#newFundraiserForm{
+    text-align: left;
+    margin-left: auto;
+    padding: 10px;
+    display: inline-block;
+}
+
+.makePost {
+    margin-top: 15px;
+}

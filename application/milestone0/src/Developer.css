@@ -1,0 +1,32 @@
+.holder{
+    background-color: black;
+}
+.developer{
+    border-radius: 10px;
+    overflow: hidden;
+    padding:2%;
+    margin-left: 30px;
+    transition: transform 0.1s ease-in;
+    margin-right: 20px;
+}
+
+.developer:hover{
+    transform: scale(1.03);
+}
+
+.developerImage img{
+    width: 400px;
+    height: 300px;
+    max-width: 100%;
+    
+}
+
+.developerInfo h2, h3{
+    margin-top: auto;
+    color: wheat;
+    text-align: center;
+}
+
+
+
+
